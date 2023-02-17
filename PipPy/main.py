@@ -5,7 +5,7 @@ from bot_commands import *
 
 
 
-app = ApplicationBuilder().token("5820237309:AAFc92KZmPVVRLA7ALHlSq8L515sfizjiqc").build()
+app = ApplicationBuilder().token("1111").build()
 print("Start server")
 app.add_handler(CommandHandler("hi", hi_command))
 app.add_handler(CommandHandler("time", time_command))
